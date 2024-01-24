@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { Button } from "@/components/ui/button"
+import Navbar from './components/navbar/navbar.jsx'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import { Button } from "@/components/ui/button"
+
 import './App.css'
 
 function App() {
@@ -9,19 +11,14 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Navbar />
+      <div id="home" className='w-full mt-[6em]'>
       </div>
       <h1>Vite + React</h1>
-      <div className="card">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div id="about" className="card">
+        <h1 className="text-3xl font-bold underline">
+          Hello world!
+        </h1>
         <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </Button>
