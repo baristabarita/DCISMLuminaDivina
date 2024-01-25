@@ -23,10 +23,14 @@ const Navbar = () => {
             <div className="col-span-1 flex items-center text-[1.4em] text-[#ffffff] space-x-10 justify-center">
                 <nav className="xl:max-2xl:ml-[5%]">
                     <ul className='flex text-white xs:max-sm:text-[0.8em] xl:max-2xl:text-[0.8em]'>
-                        <li className='mr-28 hover:text-[#2937ff] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
+                        <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
                     ' onClick={() => navigateTo('home')}>Home</li>
-                        <li className='mr-28 hover:text-[#2937ff] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
+                        <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
                     ' onClick={() => navigateTo('about')}>About</li>
+                        <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
+                    ' onClick={() => navigateTo('theme')}>Theme</li>
+                        <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
+                    ' onClick={() => navigateTo('venue')}>Venue</li>
                     </ul>
                 </nav>
             </div>
