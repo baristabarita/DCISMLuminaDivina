@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         'bitter': ['Bitter','sans-serif'],
         'roboto' : ['Roboto', 'sans-serif'],
+        'bodoni' : ['Bodoni Moda', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

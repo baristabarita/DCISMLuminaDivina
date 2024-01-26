@@ -26,7 +26,7 @@ const Overview = () => {
         <section id="overview" className='pb-4 flex flex-col md:flex-row justify-center items-center space-x-10'>
             {/* column 1 */}
             <div className='px-9 md:w-1/2 md:max-w-md'>
-            <h1 className='text-start text-[10vh] font-light font-bitter text-[#fddc5c] glow'>Overview</h1>
+            <h1 className='text-start text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Overview</h1>
                 <Accordion type="single" collapsible className='font-bitter'>
                     <AccordionItem value="item-1">
                         <AccordionTrigger className='font-bold'>What is the DCISM Lumina Divina?</AccordionTrigger>
@@ -54,7 +54,7 @@ const Overview = () => {
                     <CarouselContent>
                         {images.map((image, index) => (
                             <CarouselItem key={index}>
-                                <div className="p-1">
+                                <div className="p-1 animate-fade-in">
                                     <Card>
                                         <CardContent className="bg-black flex aspect-square items-center justify-center p-6">
                                             <img src={image} alt={`Carousel ${index + 1}`} className="object-cover w-full h-full" />

@@ -1,22 +1,28 @@
 import React from "react";
-import { Card } from "../ui/card";
-import image1 from '../../assets/themeimg1.png'
-import image2 from '../../assets/themeimg2.png'
-import backgroundimg from '../../assets/themebg2.png'
+import { Card, CardContent } from "@/components/ui/card"
+import { Separator } from "@/components/ui/separator"
+import image from '../../assets/themeimg.png'
 const Theme = () => {
-    return(
-        <Card className="flex w-full bg-cover bg-center" style={{backgroundImage: `url(${backgroundimg})`}}>
-            <div className="w-1/3">
-                <img src={image1} alt="Theme 1" className="w-3/4 shadow-lg"/>
+    return (
+        <section id="theme" className='pb-4 flex flex-col md:flex-row justify-center items-center space-x-10 animate-fade-in'>
+            {/* column 1 - img goes here */}
+            <div className='md:w-1/2 md:max-w-md'>
+                <Card>
+                    <CardContent className="bg-black flex aspect-square items-center justify-center p-6">
+                        <img src={image} className="object-cover w-full h-full" />
+                    </CardContent>
+                </Card>
             </div>
-            <div className="w-1/3 px-4">
-                <h1 className="text-xl font-bold mb-2">Theme</h1>
-                <p className="text-base text-gray-600">Your description here</p>
+            {/* column 2 - info here */}
+            <div className='px-9 md:w-1/2 md:max-w-md'>
+                <h1 className='text-start text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Theme</h1>
+                <Separator className="my-4 bg-white" />
+                <h4 className="my-4 italic font-bitter text-[#fddc5c] glow">Divinity • Heavenly • Ethereal • Deities</h4>
+                <p className="font-bitter">
+                Lumina Divina, the theme of the DCISM General Assembly 2024, where the night sky comes alive with divine radiance. The earthly and divine converge in a luminous soiree as the venue transforms into a sanctuary of shimmering stars and golden hues. Here, revel in what transcends the ordinary and dance beneath the celestial heavens.
+                </p>
             </div>
-            <div className="w-1/3">
-                <img src={image2} alt="Theme 2" className="w-3/4 shadow-lg"/>
-            </div>
-        </Card>
+        </section>
     )
 }
 

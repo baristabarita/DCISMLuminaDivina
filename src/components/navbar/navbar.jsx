@@ -30,6 +30,8 @@ const Navbar = () => {
                         <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
                     ' onClick={() => navigateTo('theme')}>Theme</li>
                         <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
+                    ' onClick={() => navigateTo('attire')}>Attire</li>
+                        <li className='mr-28 hover:text-[#e6cf84] text-center cursor-pointer hover:animate-zoom-in-end xs:max-sm:mr-8 xl:max-2xl:mr-16
                     ' onClick={() => navigateTo('venue')}>Venue</li>
                     </ul>
                 </nav>
