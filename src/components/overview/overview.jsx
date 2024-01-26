@@ -21,23 +21,23 @@ import image3 from '../../assets/img3.jpg'
 
 const Overview = () => {
     const images = [image1, image2, image3];
-    
+
     return (
         <section id="overview" className='pb-4 flex flex-col md:flex-row justify-center items-center space-x-10'>
             {/* column 1 */}
             <div className='px-9 md:w-1/2 md:max-w-md'>
-            <h1 className='text-start text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Overview</h1>
+                <h1 className='text-start text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Overview</h1>
                 <Accordion type="single" collapsible className='font-bitter'>
                     <AccordionItem value="item-1">
                         <AccordionTrigger className='font-bold'>What is the DCISM Lumina Divina?</AccordionTrigger>
                         <AccordionContent>
-                        The DCISM Lumina Divina, also known as the DCISM General Assembly 2024, is the biggest and most glamorous party of the school year held by the Computer and Information Sciences Council (CISCO). This event, formerly known as the “DCISM Acquaintance Party”, is a chance to mingle with the DCISM students and faculty from all levels and backgrounds. The event will have various surprises that will make the night unforgettable for everyone.
+                            The DCISM Lumina Divina, also known as the DCISM General Assembly 2024, is the biggest and most glamorous party of the school year held by the Computer and Information Sciences Council (CISCO). This event, formerly known as the “DCISM Acquaintance Party”, is a chance to mingle with the DCISM students and faculty from all levels and backgrounds. The event will have various surprises that will make the night unforgettable for everyone.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
                         <AccordionTrigger className='font-bold'>When and Where is the event held?</AccordionTrigger>
                         <AccordionContent>
-                            The event will be held on February 11, 2023 at The Event Space, F. Cabahug St., Panagdait, Mabolo, Cebu City. 
+                            The event will be held on February 11, 2023 at The Event Space, F. Cabahug St., Panagdait, Mabolo, Cebu City.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
@@ -64,10 +64,10 @@ const Overview = () => {
                             </CarouselItem>
                         ))}
                     </CarouselContent>
-                    <CarouselPrevious className='bg-black'/>
-                    <CarouselNext className='bg-black'/>
+                    <CarouselPrevious className='bg-black' />
+                    <CarouselNext className='bg-black' />
                 </Carousel>
-                <h4 className='italic mr-[10vh] text-center text-[0.8em]'>Photos of DCISM Acquaintance Party 2023 shown above. <br/>Credits to the original owner/photographer of these photos.</h4>
+                <h4 className='italic mr-[10vh] text-center text-[0.8em]'>Photos of DCISM Acquaintance Party 2023 shown above. <br />Credits to the original owner/photographer of these photos.</h4>
             </div>
         </section>
     )

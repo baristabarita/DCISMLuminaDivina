@@ -5,7 +5,7 @@ import Banner from './components/banner/banner.jsx'
 import Overview from './components/overview/overview.jsx'
 import Theme from './components/theme/theme.jsx'
 import Attire from './components/attire/attire.jsx'
-
+import Venue from './components/venue/venue.jsx'
 import Footer from './components/footer/footer.jsx'
 import Backgroundimg from './assets/bg1.png'
 
@@ -31,6 +31,7 @@ function App() {
             <Overview />
             <Theme />
             <Attire />
+            <Venue />
           </div>
         </div>
         <Footer />
