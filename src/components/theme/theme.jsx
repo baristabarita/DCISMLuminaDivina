@@ -4,12 +4,12 @@ import { Separator } from "@/components/ui/separator"
 import image from '../../assets/themeimg.png'
 const Theme = () => {
     return (
-        <section id="theme" className='pb-4 flex flex-col md:flex-row justify-center items-center space-x-10 animate-fade-in'>
+        <section id="theme" className='pb-4 flex flex-col md:flex-row justify-center items-center space-x-10'>
             {/* column 1 - img goes here */}
             <div className='md:w-1/2 md:max-w-md'>
                 <Card>
                     <CardContent className="bg-black flex aspect-square items-center justify-center p-6">
-                        <img src={image} className="object-cover w-full h-full" />
+                        <img src={image} className="object-cover w-full h-full animate-fade-in" />
                     </CardContent>
                 </Card>
             </div>
