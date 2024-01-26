@@ -40,7 +40,7 @@ const Navbar = () => {
                 <div className="flex space-x-2 items-center">
                     <button
                         onClick={() => window.location.href = 'https://bit.ly/DCISMLuminaDivina'}
-                        className="pl-5 pr-9 py-5 bg-[#C1A87E] text-black font-bold rounded-bl-xl hover:text-[#e2e2e2] transition-colors delay-250 duration-3000 ease-in"
+                        className="pl-5 pr-9 py-5 bg-[#dec057] text-black font-bold rounded-bl-xl hover:text-[#e2e2e2] transition-colors delay-250 duration-3000 ease-in"
                     >
                         Register Now
                     </button>
