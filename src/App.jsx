@@ -6,10 +6,9 @@ import Overview from './components/overview/overview.jsx'
 import Theme from './components/theme/theme.jsx'
 import Attire from './components/attire/attire.jsx'
 import Venue from './components/venue/venue.jsx'
+import Qrscan from './components/qrscan/qrscan.jsx'
 import Footer from './components/footer/footer.jsx'
 import Backgroundimg from './assets/bg1.png'
-
-
 
 function App() {
 
@@ -32,6 +31,7 @@ function App() {
             <Theme />
             <Attire />
             <Venue />
+            <Qrscan />
           </div>
         </div>
         <Footer />
