@@ -3,9 +3,11 @@ import { useState } from 'react'
 import Navbar from './components/navbar/navbar.jsx'
 import Banner from './components/banner/banner.jsx'
 import Overview from './components/overview/overview.jsx'
+import Theme from './components/theme/theme.jsx'
 
 import Footer from './components/footer/footer.jsx'
 import Backgroundimg from './assets/bg1.png'
+
 
 function App() {
 
@@ -25,7 +27,7 @@ function App() {
           </div>
           <div id="About" className="card text-white">
             <Overview />
-
+            <Theme />
           </div>
         </div>
         <Footer />

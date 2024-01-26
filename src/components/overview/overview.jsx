@@ -43,7 +43,7 @@ const Overview = () => {
                     <AccordionItem value="item-3">
                         <AccordionTrigger className='font-bold'>How can I join the event?</AccordionTrigger>
                         <AccordionContent>
-                            To join this event, you will be required to go through the registration form. You may click on the multiple links around the website or <a href="https://bit.ly/DCISMLuminaDivina">click here</a>!
+                            To join this event, you will be required to go through the registration form. You may click on the multiple links around the website or <a href="https://bit.ly/DCISMLuminaDivina" className='text-[#e6cf84]'>click here</a>!
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
@@ -67,7 +67,7 @@ const Overview = () => {
                     <CarouselPrevious className='bg-black'/>
                     <CarouselNext className='bg-black'/>
                 </Carousel>
-                <h4 className='italic ml-[8vh] text-[0.8em]'>Credits to the original owner/photographer of these photos.</h4>
+                <h4 className='italic mr-[10vh] text-center text-[0.8em]'>Photos of DCISM Acquaintance Party 2023 shown above. <br/>Credits to the original owner/photographer of these photos.</h4>
             </div>
         </section>
     )
