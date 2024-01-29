@@ -20,7 +20,7 @@ const Venue = () => {
         <section id="venue" className='pb-4 flex flex-col md:flex-row justify-center items-center space-x-10'>
             {/* Column 1 - Info */}
             <div className='px-9 md:w-1/2 md:max-w-md'>
-                <h1 className='text-start text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Venue</h1>
+                <h1 className='text-start text-[7vh] md:text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Venue</h1>
                 <Separator className="my-4 bg-white" />
                 <h4 className="my-4 italic font-bitter text-[#fddc5c] glow">The • Event • Space</h4>
                 <p className="font-bitter">

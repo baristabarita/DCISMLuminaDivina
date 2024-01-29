@@ -15,7 +15,7 @@ const Theme = () => {
             </div>
             {/* column 2 - info here */}
             <div className='px-9 md:w-1/2 md:max-w-md'>
-                <h1 className='text-start text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Theme</h1>
+                <h1 className='text-start text-[7vh] md:text-[10vh] font-light font-bodoni text-[#fddc5c] glow'>Theme</h1>
                 <Separator className="my-4 bg-white" />
                 <h4 className="my-4 italic font-bitter text-[#fddc5c] glow">Divinity • Heavenly • Ethereal • Deities</h4>
                 <p className="font-bitter">

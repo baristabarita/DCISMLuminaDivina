@@ -19,16 +19,16 @@ const Attire = () => {
   const attires = [attire1, attire2, attire3, attire4, attire5, attire6];
   return (
     <section id="attire" className="flex flex-col items-center mt-4">
-      <h1 className="text-center text-[10vh] font-light font-bodoni text-[#fddc5c] glow">Outfit and Attire</h1>
+      <h1 className="text-[7vh] md:text-[10vh] text-center font-light font-bodoni text-[#fddc5c] glow">Outfit and Attire</h1>
       <Carousel
         opts={{
           align: "center",
         }}
         className="w-full max-w-lg"
       >
-        <CarouselContent>
+        <CarouselContent className='px-20 md:px-1'>
           {attires.map((attire, index) => (
-            <CarouselItem key={index} className="sm:basis-1/3 md:basis-1/3 lg:basis-1/3">
+            <CarouselItem key={index} className="basis-3/3 md:basis-1/3 lg:basis-1/3">
               <div className="p-1">
                 <Card>
                   <CardContent className="bg-[#ffffff] flex items-center justify-center p-6 aspect-square w-[10em] h-[20em]">
