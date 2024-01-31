@@ -32,8 +32,8 @@ const Venue = () => {
             </div>
 
             {/* Column 2 - Carousel */}
-            <div className='md:w-1/2 md:max-w-lg'>
-                <Carousel className="w-full max-w-md">
+            <div className='w-4/6 flex items-center flex-col md:w-1/2 md:max-w-lg'>
+                <Carousel className="w-full">
                     <CarouselContent>
                         {images.map((image, index) => (
                             <CarouselItem key={index}>
@@ -50,8 +50,9 @@ const Venue = () => {
                     <CarouselPrevious className='bg-black' />
                     <CarouselNext className='bg-black' />
                 </Carousel>
-                <h4 className='italic mr-[10vh] text-center text-[0.8em]'>Credits to the original owner/photographer of these photos.</h4>
-            </div>
+                <div  className="flex items-center justify-center">
+                <h4 className='italic mx-2 text-center text-[0.8em]'>Credits to the original owner/photographer of these photos.</h4>
+            </div></div>
         </section>
     )
 }

@@ -24,7 +24,7 @@ const Navbar = () => {
     const musicUrls = [bgmusic1, bgmusic2, bgmusic3];
 
     //for mobile
-    const [showSidebar, setShowSidebar] = useState(true);
+    const [showSidebar, setShowSidebar] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 
     const navigateTo = (id) => {
@@ -87,7 +87,7 @@ const Navbar = () => {
             <img
                 src={logo}
                 alt="USC Cisco Logo"
-                className="ml-[2rem] mt-[0.8rem] w-[8rem] cursor-pointer"
+                className=" mt-[0.8rem] w-[8rem] cursor-pointer"
                 onClick={() => navigateTo('home')}
               />
             </div>
